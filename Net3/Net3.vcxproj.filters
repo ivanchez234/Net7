@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Triangle">
+      <UniqueIdentifier>{88c185a8-cdfe-455e-acb4-0ced80d1a756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RightTriangle">
+      <UniqueIdentifier>{b28be68e-5f8d-48f2-9ee9-9c011d7d0f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IsoscelesTriangle">
+      <UniqueIdentifier>{70967d43-239d-4ecd-ab65-6c82dc8f23ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquilateralTriangle">
+      <UniqueIdentifier>{6acfb606-d083-4cc8-8d84-358ac7857cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadrangle">
+      <UniqueIdentifier>{5681f45c-fb9b-4751-84ab-44250c65a673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parallelogram">
+      <UniqueIdentifier>{a0679da3-575b-4254-a7cc-3d24d9787327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rectangle">
+      <UniqueIdentifier>{e2d18c7c-7e53-46d1-9f5a-e8c36998c856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Square">
+      <UniqueIdentifier>{f3bd5021-7ea6-4a55-954c-066412ea737a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rhombus">
+      <UniqueIdentifier>{e1e0f3f6-0eb5-4046-8a8a-34764110f7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyException">
+      <UniqueIdentifier>{ff0ae7e9-42f6-41e7-9b95-c91d116de4ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Net3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTriangle.cpp">
+      <Filter>RightTriangle</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoscelesTriangle.cpp">
+      <Filter>IsoscelesTriangle</Filter>
+    </ClCompile>
+    <ClCompile Include="EquilateralTriangle.cpp">
+      <Filter>EquilateralTriangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadrangle.cpp">
+      <Filter>Quadrangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallelogram.cpp">
+      <Filter>Parallelogram</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhombus.cpp">
+      <Filter>Rhombus</Filter>
+    </ClCompile>
+    <ClCompile Include="MyException.cpp">
+      <Filter>MyException</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoscelesTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EquilateralTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallelogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhombus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
