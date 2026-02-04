@@ -1,15 +1,13 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <string>
+#include <stdexcept>
 
-class bad_length
-{
 
-};
 int function(std::string str, int forbidden_length)
 {
     if (static_cast<int>(str.length()) == forbidden_length)
     {
-        throw bad_length();
+        throw std::runtime_error("–û—à–∏–±–∫–∞");
     }
     return static_cast<int>(str.length());
 }
@@ -18,22 +16,22 @@ int main()
     setlocale(LC_ALL, "Rus");
     int forbidden_length{};
     std::string word{};
-    std::cout << "¬‚Â‰ËÚÂ Á‡ÔÂÚÌÛ˛ ‰ÎËÌÛ: ";
+    std::cout << "–í–≤–µ–¥–∏—Ç–µ –∑–∞–ø—Ä–µ—Ç–Ω—É—é –¥–ª–∏–Ω—É: ";
     std::cin >> forbidden_length;
     
     while (true)
     {
-        std::cout << "¬‚Â‰ËÚÂ ÒÎÓ‚Ó: ";
+        std::cout << "–í–≤–µ–¥–∏—Ç–µ —Å–ª–æ–≤–æ: ";
         std::cin >> word;
         try
         {
             int len = function(word, forbidden_length);
-            std::cout<< "ƒÎËÌ‡ ÒÎÓ‚‡ \""<< word<<"\" ‡‚Ì‡ " << len << std::endl;
+            std::cout<< "–î–ª–∏–Ω–∞ —Å–ª–æ–≤–∞ \""<< word<<"\" —Ä–∞–≤–Ω–∞ " << len << std::endl;
 
         }
-        catch (bad_length&)
+        catch (std::runtime_error)
         {
-            std::cout << "Ã˚ ‚‚ÂÎË ÒÎÓ‚Ó Á‡ÔÂÚÌÓÈ ‰ÎËÌ˚! ƒÓ Ò‚Ë‰‡ÌËˇ";
+            std::cout << "–ú—ã –≤–≤–µ–ª–∏ —Å–ª–æ–≤–æ –∑–∞–ø—Ä–µ—Ç–Ω–æ–π –¥–ª–∏–Ω—ã! –î–æ —Å–≤–∏–¥–∞–Ω–∏—è";
             break;
         }
 
